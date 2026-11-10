@@ -320,21 +320,6 @@ src/
 
 </details>
 
-## 원본 실행 안내
-
-아래 명령은 실행 코드가 있는 **원본 저장소**를 기준으로 정리. 이 포트폴리오 저장소에는 실행 앱을 포함하지 않았음.
-
-```bash
-git clone https://github.com/saintlucias/Gang-jin-village-hotel-.git
-cd Gang-jin-village-hotel-
-npm ci
-npm run dev
-```
-
-실행 전 원본 루트의 `.env.local`에 서버 주소·도메인별 API 경로·Kakao 지도 키·소셜 로그인 클라이언트 ID·기준 URL·리다이렉트 경로를 설정하도록 구성. 환경변수 이름은 `src/api/network.ts`, `src/context/UserAuth.tsx`, `src/components/module/map/mapView.tsx`에서 확인 가능하며, 실제 값과 외부 서버는 별도 준비 필요.
-
-`npm run build`와 `npm run start`는 각각 프로덕션 빌드와 실행 스크립트로 정의. 이번 작업은 원본 코드·설정·화면 자료 분석을 대상으로 했으며, 외부 API·소셜 인증·지도·실결제의 실행 검증은 수행하지 않았음.
-
 ## 구현 근거
 
 아래 링크는 분석한 커밋의 파일을 가리키도록 고정.
