@@ -91,8 +91,6 @@ flowchart LR
 | 개발 도구 | Turbopack · ESLint 9 | 개발 서버의 `next dev --turbopack` 스크립트와 Next.js ESLint 설정을 구성 |
 | 폰트·미디어 | Pretendard · Roboto · next/image · HTML video | 로컬 폰트, 이미지 표시, 영상 컨트롤과 이미지 확대 UI를 적용 |
 
-Tailwind CSS `4.1.8`과 `react-textarea-autosize` `8.5.9`는 의존성에 등록되어 있으나, `src`에서 직접 사용되는 지점은 확인되지 않았음. 실제 화면 스타일은 SCSS Modules를 사용했고, 공통 입력창의 높이 조절은 `useLayoutEffect`와 `scrollHeight`로 구현.
-
 ## 인터랙션과 화면 효과
 
 | 효과 | 구현 방식 | 사용자에게 제공하는 동작 |
