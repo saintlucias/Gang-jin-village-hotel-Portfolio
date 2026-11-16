@@ -312,7 +312,6 @@ src/
 | 암호화·공통 로딩 | [useEncryption.ts][source-encryption] · [LoadingProvider.tsx][source-loading] |
 | 화면 효과·반응형 | [Banner.tsx][source-banner] · [useDevice.ts][source-device] · [styles][source-styles] |
 | 이미지 후기·파일 처리 | [cr_review.tsx][source-review] · [load_url.tsx][source-download] |
-| 화면 자료 | [원본 README][source-readme] · [readme 이미지 폴더][source-screens] |
 
 [source-package]: https://github.com/saintlucias/Gang-jin-village-hotel-/blob/62192f7e4c79c3473d45708a874937b91e424da2/package.json
 [source-lock]: https://github.com/saintlucias/Gang-jin-village-hotel-/blob/62192f7e4c79c3473d45708a874937b91e424da2/package-lock.json
@@ -334,5 +333,3 @@ src/
 [source-styles]: https://github.com/saintlucias/Gang-jin-village-hotel-/tree/62192f7e4c79c3473d45708a874937b91e424da2/src/styles
 [source-review]: https://github.com/saintlucias/Gang-jin-village-hotel-/blob/62192f7e4c79c3473d45708a874937b91e424da2/src/components/module/Confirm-Reservation/cr_review.tsx
 [source-download]: https://github.com/saintlucias/Gang-jin-village-hotel-/blob/62192f7e4c79c3473d45708a874937b91e424da2/src/components/module/Notification/load_url.tsx
-[source-readme]: https://github.com/saintlucias/Gang-jin-village-hotel-/blob/62192f7e4c79c3473d45708a874937b91e424da2/README.md
-[source-screens]: https://github.com/saintlucias/Gang-jin-village-hotel-/tree/62192f7e4c79c3473d45708a874937b91e424da2/readme
